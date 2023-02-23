@@ -14,7 +14,6 @@ const TagsTemplate: React.FC = () => {
 
   return (
     <Layout>
-      <Sidebar />
       <Page title="Tags">
         <ul>
           {tags.map((tag) => (
@@ -26,6 +25,7 @@ const TagsTemplate: React.FC = () => {
           ))}
         </ul>
       </Page>
+      <Sidebar />
     </Layout>
   );
 };

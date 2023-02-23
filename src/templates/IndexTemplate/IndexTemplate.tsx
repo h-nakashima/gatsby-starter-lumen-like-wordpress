@@ -26,7 +26,6 @@ const IndexTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
 
   return (
     <Layout>
-      <Sidebar isIndex />
       <Page>
         <Feed edges={edges} />
         <Pagination
@@ -36,6 +35,7 @@ const IndexTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
           hasNextPage={hasNextPage}
         />
       </Page>
+      <Sidebar isIndex />
     </Layout>
   );
 };

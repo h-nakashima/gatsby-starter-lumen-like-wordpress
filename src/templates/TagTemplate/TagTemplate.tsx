@@ -25,7 +25,6 @@ const TagTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
 
   return (
     <Layout>
-      <Sidebar />
       <Page title={group}>
         <Feed edges={edges} />
         <Pagination
@@ -35,6 +34,7 @@ const TagTemplate: React.FC<Props> = ({ data, pageContext }: Props) => {
           hasNextPage={hasNextPage}
         />
       </Page>
+      <Sidebar />
     </Layout>
   );
 };
