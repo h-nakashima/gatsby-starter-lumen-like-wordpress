@@ -4,6 +4,37 @@ exports[`TagsTemplate renders correctly 1`] = `
 <div>
   <div>
     <div>
+      <h1>
+        Tags
+      </h1>
+      <div>
+        <ul>
+          <li>
+            <a
+              href="/tag/typography/"
+            >
+              typography
+               (
+              1
+              )
+            </a>
+          </li>
+          <li>
+            <a
+              href="/tag/design-inspiration/"
+            >
+              design inspiration
+               (
+              1
+              )
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
       <div>
         <a
           href="/"
@@ -140,37 +171,6 @@ exports[`TagsTemplate renders correctly 1`] = `
       </div>
       <div>
         All rights reserved.
-      </div>
-    </div>
-  </div>
-  <div>
-    <div>
-      <h1>
-        Tags
-      </h1>
-      <div>
-        <ul>
-          <li>
-            <a
-              href="/tag/typography/"
-            >
-              typography
-               (
-              1
-              )
-            </a>
-          </li>
-          <li>
-            <a
-              href="/tag/design-inspiration/"
-            >
-              design inspiration
-               (
-              1
-              )
-            </a>
-          </li>
-        </ul>
       </div>
     </div>
   </div>

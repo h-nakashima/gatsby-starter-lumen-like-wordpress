@@ -14,7 +14,6 @@ const CategoriesTemplate: React.FC = () => {
 
   return (
     <Layout>
-      <Sidebar />
       <Page title="Categories">
         <ul>
           {categories.map((category) => (
@@ -26,6 +25,7 @@ const CategoriesTemplate: React.FC = () => {
           ))}
         </ul>
       </Page>
+      <Sidebar />
     </Layout>
   );
 };
