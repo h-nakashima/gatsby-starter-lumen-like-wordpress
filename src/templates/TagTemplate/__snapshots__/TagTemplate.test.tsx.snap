@@ -10,11 +10,18 @@ exports[`TagTemplate renders correctly 1`] = `
       <div>
         <div>
           <div>
+            <h2>
+              <a
+                href="/posts/perfecting-the-art-of-perfection"
+              >
+                Perfecting the Art of Perfection
+              </a>
+            </h2>
             <div>
               <time
-                dateTime="September 1, 2016"
+                dateTime="2016-09-01"
               >
-                September 2016
+                Thu, Sep 1, 2016
               </time>
               <span />
               <span>
@@ -25,13 +32,6 @@ exports[`TagTemplate renders correctly 1`] = `
                 </a>
               </span>
             </div>
-            <h2>
-              <a
-                href="/posts/perfecting-the-art-of-perfection"
-              >
-                Perfecting the Art of Perfection
-              </a>
-            </h2>
             <p>
               An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.
             </p>
@@ -42,11 +42,18 @@ exports[`TagTemplate renders correctly 1`] = `
             </a>
           </div>
           <div>
+            <h2>
+              <a
+                href="/posts/johannes-gutenberg"
+              >
+                Johannes Gutenberg: The Birth of Movable Type
+              </a>
+            </h2>
             <div>
               <time
-                dateTime="September 1, 2016"
+                dateTime="2016-09-01"
               >
-                September 2016
+                Thu, Sep 1, 2016
               </time>
               <span />
               <span>
@@ -57,13 +64,6 @@ exports[`TagTemplate renders correctly 1`] = `
                 </a>
               </span>
             </div>
-            <h2>
-              <a
-                href="/posts/johannes-gutenberg"
-              >
-                Johannes Gutenberg: The Birth of Movable Type
-              </a>
-            </h2>
             <p>
               German inventor Johannes Gutenberg developed a method of movable type and used it to create one of the western world’s first major printed books, the “Forty–Two–Line” Bible.
             </p>
@@ -74,11 +74,18 @@ exports[`TagTemplate renders correctly 1`] = `
             </a>
           </div>
           <div>
+            <h2>
+              <a
+                href="/posts/humane-typography-in-the-digital-age"
+              >
+                Humane Typography in the Digital Age
+              </a>
+            </h2>
             <div>
               <time
-                dateTime="September 1, 2017"
+                dateTime="2017-09-01"
               >
-                September 2017
+                Fri, Sep 1, 2017
               </time>
               <span />
               <span>
@@ -89,13 +96,6 @@ exports[`TagTemplate renders correctly 1`] = `
                 </a>
               </span>
             </div>
-            <h2>
-              <a
-                href="/posts/humane-typography-in-the-digital-age"
-              >
-                Humane Typography in the Digital Age
-              </a>
-            </h2>
             <p />
             <a
               href="/posts/humane-typography-in-the-digital-age"
