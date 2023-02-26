@@ -4,6 +4,22 @@ exports[`PageTemplate renders correctly 1`] = `
 <div>
   <div>
     <div>
+      <h1>
+        Perfecting the Art of Perfection
+      </h1>
+      <div>
+        <div
+          dangerouslySetInnerHTML={
+            {
+              "__html": "<p>An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.</p>",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
       <div>
         <a
           href="/"
@@ -140,22 +156,6 @@ exports[`PageTemplate renders correctly 1`] = `
       </div>
       <div>
         All rights reserved.
-      </div>
-    </div>
-  </div>
-  <div>
-    <div>
-      <h1>
-        Perfecting the Art of Perfection
-      </h1>
-      <div>
-        <div
-          dangerouslySetInnerHTML={
-            {
-              "__html": "<p>An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.</p>",
-            }
-          }
-        />
       </div>
     </div>
   </div>

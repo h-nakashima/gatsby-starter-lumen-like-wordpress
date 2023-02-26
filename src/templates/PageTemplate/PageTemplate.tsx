@@ -22,10 +22,10 @@ const PageTemplate: React.FC<Props> = ({ data }: Props) => {
 
   return (
     <Layout>
-      <Sidebar />
       <Page title={title}>
         <div dangerouslySetInnerHTML={{ __html: body }} />
       </Page>
+      <Sidebar />
     </Layout>
   );
 };

@@ -4,6 +4,18 @@ exports[`NotFoundTemplate renders correctly 1`] = `
 <div>
   <div>
     <div>
+      <h1>
+        NOT FOUND
+      </h1>
+      <div>
+        <p>
+          You just hit a route that doesn't exist... the sadness.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
       <div>
         <a
           href="/"
@@ -140,18 +152,6 @@ exports[`NotFoundTemplate renders correctly 1`] = `
       </div>
       <div>
         All rights reserved.
-      </div>
-    </div>
-  </div>
-  <div>
-    <div>
-      <h1>
-        NOT FOUND
-      </h1>
-      <div>
-        <p>
-          You just hit a route that doesn't exist... the sadness.
-        </p>
       </div>
     </div>
   </div>
